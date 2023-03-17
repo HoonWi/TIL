@@ -24,7 +24,7 @@ let num2 = num1 //num2에 num1 자체를 넣는다.
 ```
 
 
-메모링 ㅓ쩌구 때문
+메모링 어쩌구 때문
 
 원시값은 deep copy,
 객체를 대입할 때는  shallow copy

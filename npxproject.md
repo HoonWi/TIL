@@ -5,7 +5,7 @@ node_modules
 .env
 
 > client 폴더
-$ npx create-react-app --template typescript
+$ npx create-react-app {{프로젝트명}}
 
 $ npm install
 
@@ -33,7 +33,7 @@ App.tsc
 server - app.ts파일 생성하여 붙여넣기
 ```
 const express = require('express')
-import express from 'express' //변경
+=> import express from 'express' //변경
 ```
 
 - express 모듈 설치 $ npm install express
@@ -138,7 +138,7 @@ heroku에서는 npm run start를 해주는 역할을 한다.
 $ npm init
 
 > scripts에 내용 추가
-start를 하고 60초 이내에 배포해야 하기 때문에
+- start를 하고 60초 이내에 배포해야 하기 때문에
 heroku-prebuild에 스타트를 하기 전 해야 할 내용을 미리 작성한다.
 ```
 // client 폴더로 이동
