@@ -12,6 +12,3 @@ const float = parseFloat(str);
 console.log(integer);// 3
 console.log(float); // 3.14
 console.log(typeof integer, typeof float); // number number
-
-// Math.abs()
-console.log();

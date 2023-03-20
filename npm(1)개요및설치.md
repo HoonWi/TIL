@@ -48,6 +48,6 @@ package.json에 명시된 모든 패키지를 설치
 설치된 모듈을 내부적으로 관리
 parcel-bundler와 lodash 외 내부에서 사용하는 패키지의 정보가 들어가 있음. 자동으로 관리되는 파일이라는 뜻(lock).
 
-따라서 아래 두 파일은 지우면 안됨.
-package.json
-package-lock.json
+따라서 아래 두 파일은 지우면 안됨  
+```package.json```  
+```package-lock.json```
