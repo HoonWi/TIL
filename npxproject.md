@@ -5,7 +5,7 @@ node_modules
 .env
 
 > client 폴더
-$ npx create-react-app {{프로젝트명}}
+$ npx create-react-app {프로젝트명}
 
 $ npm install
 
