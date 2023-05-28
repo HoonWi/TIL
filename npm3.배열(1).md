@@ -14,3 +14,14 @@ console.log(numbers.concat(fruits)) //
 
 // .foreach(element, index, array)
 // .map = foreach와 동일하지만 return값이 있다.
+
+const a = fruits.forEach((fruit, index) => {
+  console.log(`${fruit}-${index}`)
+})
+console.log(a)
+
+const b = fruits.map((fruit, index) => ({
+    id: index,
+    name: fruit
+  }))
+console.log(b)
