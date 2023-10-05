@@ -25,3 +25,5 @@ const b = fruits.map((fruit, index) => ({
     name: fruit
   }))
 console.log(b)
+
+// .filter
